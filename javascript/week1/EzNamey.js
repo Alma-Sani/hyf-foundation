@@ -1,0 +1,30 @@
+const firstWords = [
+  "Easy",
+  "Awesome",
+  "Smart",
+  "Fast",
+  "Happy",
+  "Cool",
+  "Bright",
+  "Super",
+  "Quick",
+  "Fresh",
+];
+
+const secondWords = [
+  "Corporation",
+  "Solutions",
+  "Company",
+  "Technology",
+  "Systems",
+  "Studio",
+  "Labs",
+  "Works",
+  "Group",
+  "Design",
+];
+const randomNumber = Math.floor(Math.random() * 10);
+const startupName = firstWords[randomNumber] + " " + secondWords[randomNumber];
+console.log(
+  `The startup: "${startupName}" contains ${startupName.length} characters.`,
+);
